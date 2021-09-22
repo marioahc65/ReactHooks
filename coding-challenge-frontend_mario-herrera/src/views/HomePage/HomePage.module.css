@@ -1,0 +1,42 @@
+.DirectMessage{
+    
+    color: #e8e8db !important;
+    font-size: 4em !important;
+}
+.principalSection{
+    display: flex;
+    align-content: flex-end;
+    height: 500px;
+}
+
+.hoverUnderlineAnimation {
+    display: inline-block;
+    position: relative;
+    color: #f08f02;
+    font-size: 22px;
+  }
+  
+  .hoverUnderlineAnimation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 2px;
+    left: 0;
+    background-color: wheat;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hoverUnderlineAnimation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .hoverUnderlineAnimation:hover {
+    color:wheat;
+}
+
+
+  

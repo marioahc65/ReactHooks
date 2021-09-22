@@ -1,0 +1,7 @@
+.BewariesCountPages {
+    color: #e8e8db !important;
+    margin-top: 30px !important;
+}
+.BewariesCountPages > * {
+    color: #e8e8db !important;
+}

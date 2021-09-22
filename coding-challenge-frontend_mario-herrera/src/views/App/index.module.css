@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
+html,body {
+    background-color: black !important;
+    font-family: 'Quicksand' !important;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Quicksand' !important;
+    font-weight: bold;
+}
+p{
+    font-size: 14px !important;
+    color: #858377 !important;
+}
+
+.divIndex {
+    min-height: '100vh';
+    padding-top: '100px';
+}
+
+.logoDesign {
+    width: 200px;
+    height: auto;
+    padding: 40px 0px 0px 40px !important;
+}

@@ -1,0 +1,29 @@
+
+.principalSection{
+    display: flex;
+    align-content: flex-end;
+    height: 400px;
+}
+.orderBewarieImage{
+    border-radius: 4px;
+}
+.detailNameStore{
+    color: #f08f02;
+    float: left !important;
+    margin-right: 20px;
+}
+.detailStore {
+    background-color: #1b1c1d !important;
+    color: white;
+    border-style: 1px white solid !important;
+    border-radius: 4px !important;
+}
+
+.webSiteStore{
+    color:white;
+    text-decoration: none;
+    background-color: none;
+}
+.webSiteStore:hover {
+    color:wheat;
+}
